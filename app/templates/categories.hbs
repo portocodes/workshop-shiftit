@@ -2,7 +2,7 @@
   <div class="sidebar">
     <ul class="nav nav-pills nav-stacked">
       {{#each todo in model}}
-        <li>{{#link-to 'category' todo}}{{todo.name}}{{/link-to}}</li>
+        {{#link-to 'category' todo tagName="li"}}<a>{{todo.name}}</a>{{/link-to}}
       {{/each }}
     </ul>
   </div>
