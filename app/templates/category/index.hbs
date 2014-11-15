@@ -1,0 +1,12 @@
+<ul>
+  {{#each todo in model.todos}}
+    <li>{{todo.description}}</li>
+  {{/each }}
+  
+  <li class="new-todo">
+    {{#create-todo
+      description="Description"
+      placeholder="Your task"
+      action="createTodo"}}{{/create-todo}}
+  </li>
+</ul>

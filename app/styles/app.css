@@ -1,3 +1,25 @@
 html, body {
   margin: 20px;
 }
+
+body {
+  padding-top: 2em;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+
+  background-color: #cfff03;
+}
+
+.main-content {
+  float: right;
+  width: 70%;
+
+  background-color: #e8e8e8;
+}
+
+.new-todo {
+  background-color: #ffc000;
+}
